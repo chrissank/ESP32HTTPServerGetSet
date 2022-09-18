@@ -19,7 +19,7 @@ void setup() {
 
   delay(100);
 
-  WiFi.begin("C&M", "winter2022");
+  WiFi.begin("<SSID>", "<Password>");
 
   while (WiFi.status() != WL_CONNECTED) {
     delay(100);
